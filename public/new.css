@@ -1,0 +1,39 @@
+body {
+    background: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 40px;
+    color: #444;
+}
+
+h2 {
+    text-align: center;
+    color: maroon;
+    font-size: 32px;
+    font-family: 'Georgia', serif;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background-color: #b92b27;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
