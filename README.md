@@ -5,19 +5,19 @@ It uses **EJS** for templating and **method-override** to enable PUT/PATCH and D
 
 ## 🚀 Features
 
-* 🔥 **Create Post**
+*  **Create Post**
   Add new posts with a username and content using a simple HTML form.
   
-* 👀 **Read All Posts**
+*  **Read All Posts**
   View all posts on the main page with usernames and their content.
   
-* 📄 **Read Single Post**
+*  **Read Single Post**
   View details of a specific post by clicking on it.
   
-* ✏️ **Edit Post**
+*  **Edit Post**
   Update the content of any post using an edit form (supports `PATCH` requests).
   
-* 🗑️ **Delete Post**
+*  **Delete Post**
   Delete any post permanently (supports `DELETE` requests).
 
 
