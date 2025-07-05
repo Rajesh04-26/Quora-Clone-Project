@@ -2,16 +2,24 @@
 This is a **mini backend project** for a Quora-like post system built with **Node.js** and **Express.js**, demonstrating full **CRUD operations** (Create, Read, Update, Delete) using RESTful API principles.
 It uses **EJS** for templating and **method-override** to enable PUT/PATCH and DELETE requests via HTML forms.
 
----
 
 ## 🚀 Features
-✅ Create a new post
-✅ View all posts or a single post
-✅ Edit/Update existing posts
-✅ Delete posts
-✅ RESTful routes using Express.js
 
----
+* 🔥 **Create Post**
+  Add new posts with a username and content using a simple HTML form.
+  
+* 👀 **Read All Posts**
+  View all posts on the main page with usernames and their content.
+  
+* 📄 **Read Single Post**
+  View details of a specific post by clicking on it.
+  
+* ✏️ **Edit Post**
+  Update the content of any post using an edit form (supports `PATCH` requests).
+  
+* 🗑️ **Delete Post**
+  Delete any post permanently (supports `DELETE` requests).
+
 
 ## 🛠 Tech Stack & Tools
 * **Node.js** – JavaScript runtime
@@ -22,13 +30,13 @@ It uses **EJS** for templating and **method-override** to enable PUT/PATCH and D
 * **HTML/CSS** – Frontend templates
 * **In-memory storage** – (No database, for simplicity)
 
----
 
 4️⃣ Open your browser and navigate to:
 
 ```
 http://localhost:8000/posts
 ```
+
 
 ## 🌐 RESTful Endpoints
 
